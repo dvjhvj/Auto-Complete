@@ -38,9 +38,8 @@ void loadDictionary(const string& filename, Trie& trie) {
 
 int main() {
     Trie trie;
-
+    cout << "Loading dictionary..." << endl;
     loadDictionary("dictionary.txt", trie);
-    cout << "Dictionary loaded successfully." << endl;
 
     while (true) {
         cout << "===== Secure Auto-Complete System =====" << endl;
