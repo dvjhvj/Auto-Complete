@@ -50,15 +50,15 @@ int main() {
         int choice;
         cin >> choice;
 
-        if (choice < 0 || choice > 1) {
-            cout << "Invalid choice. Please try again!" << endl;
-            continue;
-        }
-
         if (!cin) {
             cout << "Invalid input. Please enter a number." << endl;
             cin.clear(); 
             cin.ignore(1000, '\n');
+            continue;
+        }
+
+        if (choice < 0 || choice > 1) {
+            cout << "Invalid choice. Please try again!" << endl;
             continue;
         }
 
