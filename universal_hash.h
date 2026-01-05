@@ -1,3 +1,10 @@
+/*
+FullName: NGUYEN QUOC BAO KHANG
+ID Student: 24110099
+Purpose: Universal_hash.h
+Date: Jan 2nd, 2025.
+*/
+
 #ifndef UNIVERSAL_HASH_H
 #define UNIVERSAL_HASH_H
 
