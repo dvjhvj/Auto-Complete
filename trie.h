@@ -19,14 +19,13 @@ class Trie {
 private:
     TrieNode* root;
 
-    void dfs(TrieNode* node,
-             string current,
-             vector<string>& result);
+    void dfs(TrieNode* node, string current, vector<string>& result);
 
     TrieNode* searchPrefix(const string& prefix);
 
 public:
     Trie();
+    ~Trie();
 
     void insert(const string& word);
     vector<string> autocomplete(const string& prefix);
